@@ -1,9 +1,9 @@
 package es.iesjoseplanes.ed1dawdist.tarea4;
 
-/*Clase que crea un mamifero, tipo de animal*/
+/**Clase que crea un mamifero, tipo de animal*/
 public class Mamifero extends Animal {
     
-    //Constructor
+    
     public Mamifero(String nombre) {
         super(nombre);
     }

@@ -1,10 +1,10 @@
 package es.iesjoseplanes.ed1dawdist.tarea4;
 
-/*Clase principal que contiene el método main, usada para crear y relacionar animales*/
+/**Clase principal que contiene el método main, usada para crear y relacionar animales*/
 
 public class Principal {
 
-    /*Metodo principal en el que se ponen a prueba las demás clases y creamos diversos animales*/
+    /**Metodo principal en el que se ponen a prueba las demás clases y creamos diversos animales*/
     public static void main(String[] args) {
 
 /*

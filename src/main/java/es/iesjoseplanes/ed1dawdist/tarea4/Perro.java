@@ -1,6 +1,6 @@
 package es.iesjoseplanes.ed1dawdist.tarea4;
 
-/*Clase que crea un perro, que a su vez es un tipo de Animal*/
+/**Clase que crea un perro, que a su vez es un tipo de Animal*/
 public class Perro extends Mamifero {
     
     //Constructor

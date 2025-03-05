@@ -1,6 +1,6 @@
 package es.iesjoseplanes.ed1dawdist.tarea4;
 
-/*Clase que crea un gato, que es un tipo de Animal*/
+/**Clase que crea un gato, que es un tipo de Animal*/
 public class Gato extends Mamifero {
     private int pelos;
     
@@ -12,7 +12,7 @@ public class Gato extends Mamifero {
         this.pelos = pelos;
     }
     
-    //Constructor
+    
     public Gato(String nombre) {
         super(nombre);
     }

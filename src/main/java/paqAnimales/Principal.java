@@ -1,10 +1,7 @@
-package es.iesjoseplanes.ed1dawdist.tarea4;
-
-/*Clase principal que contiene el método main, usada para crear y relacionar animales*/
+package paqAnimales;
 
 public class Principal {
 
-    /*Metodo principal en el que se ponen a prueba las demás clases y creamos diversos animales*/
     public static void main(String[] args) {
 
 /*
@@ -19,25 +16,25 @@ Esquema de clases de reino-animal
 */
 
 
-        Animal animal = new Animal("Pedro");
+        Animal ani = new Animal();
 
-        Mamifero mamifero = new Mamifero("Juan");
+        Mamifero mami = new Mamifero();
 
-        Perro toby = new Perro("Luis");
+        Perro toby = new Perro();
 
-        Gato isidoro = new Gato("Whiskas");
-        isidoro.setPelos(4);
+        Gato isidoro = new Gato();
+        isidoro.pelos = 4;
 
-        animal = isidoro;
+        ani = isidoro;
 
         Gato g;
-        g = (Gato) animal;
-        System.out.println("pelos de gato: " + g.getPelos());
+        g = (Gato) ani;
+        System.out.println("pelos de gato: " + g.pelos);
 
         Animal array[] = new Animal[4];
 
-        array[0] = animal;
-        array[1] = mamifero;
+        array[0] = ani;
+        array[1] = mami;
         array[2] = toby;
         array[3] = isidoro;
 

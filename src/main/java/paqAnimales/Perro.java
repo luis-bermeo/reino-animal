@@ -1,12 +1,6 @@
-package es.iesjoseplanes.ed1dawdist.tarea4;
+package paqAnimales;
 
-/*Clase que crea un perro, que a su vez es un tipo de Animal*/
 public class Perro extends Mamifero {
-    
-    //Constructor
-    public Perro(String nombre) {
-        super(nombre);
-    }
 
     @Override
     void dormir() {
@@ -23,7 +17,11 @@ public class Perro extends Mamifero {
 
     @Override
     void relacionar(Animal p) {
-        System.out.println("Con el perro: " + p.getNombre());
+        System.out.println("Con el perro: " + p.nombre);
+    }
+
+    String ToString() {
+        return this.nombre;
     }
 
 }
